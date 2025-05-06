@@ -1,4 +1,4 @@
-path: .\collect-ai\datasets  # dataset root directory
+path: C:\Users\GunesAtas\Documents\Vscode\MYZ\HW2\Roof-Detection-MYZ303-Homework\collect-ai\datasets  # dataset root directory
 train: my-bina\images\train  # train images relative to path
 val: my-bina\images\val  # val images relative to path
 
