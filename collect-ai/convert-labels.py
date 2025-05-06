@@ -4,7 +4,8 @@ import glob
 def convert_labels(label_dir):
     # Dictionary to map text labels to numeric indices
     label_map = {
-        'b1': 0,  # bina
+        'bina': 0,  # bina
+        'cami': 1,  # cami
     }
     
     # Get all text files in the label directory
