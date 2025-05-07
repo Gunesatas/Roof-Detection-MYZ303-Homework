@@ -8,7 +8,7 @@ print("Current working directory:", os.getcwd())
 
 # Define source directories
 # 'ekran_goruntusu' klasörünün altında doğrudan 'images' ve 'labels' olduğunu varsayarak yolları güncelledik.
-source_base_dir = './ekran_goruntusu' # Scriptiniz CollectAI içinde ise bu yol doğru olmalı.
+source_base_dir = './merged_ekran_goruntusu2' # Scriptiniz CollectAI içinde ise bu yol doğru olmalı.
 source_images_dir = os.path.join(source_base_dir, 'images') # b1 klasörünü kaldırdık
 source_labels_dir = os.path.join(source_base_dir, 'labels') # b1 klasörünü kaldırdık
 

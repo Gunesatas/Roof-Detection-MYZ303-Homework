@@ -54,9 +54,9 @@ def get_min_padding_width_for_count(count):
     return len(str(count))
 
 # Define the source and target directories
-source1_dir = 'ekran_goruntusu2'
+source1_dir = 'merged_ekran_goruntusu'
 source2_dir = 'ekran_goruntusu'
-target_dir = 'merged_ekran_goruntusu'
+target_dir = 'merged_ekran_goruntusu2'
 
 # --- Create the target directory structure based on source1_dir ---
 print(f"Creating target directory structure based on '{source1_dir}'...")
